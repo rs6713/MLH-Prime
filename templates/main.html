@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title>LED Array Display Application</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+   
+    <link rel="stylesheet" href= "{{ url_for('static',filename='assets/css/main.css') }}"  />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+  </head>
+  <body>
+   
+        <!--Contains led array to be altered-->
+
+        <div id="led-frame">
+           
+        </div>
+        
+        <div id="colour-frame">
+        </div>
+      
+        <div id="submit">
+            <h1>Submit</h1>
+            {{sam}}
+        </div>
+
+    <script type="text/javascript" src="{{ url_for('static',filename='assets/scripts/main.js') }}"> </script> 
+
+
+  </body>
+</html>
